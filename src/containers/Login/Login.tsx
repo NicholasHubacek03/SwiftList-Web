@@ -23,11 +23,14 @@ function App() {
           id="password"
         />
       </div>
-      <button>Login</button>
+      <button>Login!</button>
       <div>
         <button>don't have an account? Sign up!</button>
       </div>
       </form>
+      <div>
+        <button>Forgot password? Click me!</button>
+      </div>
     </>
   )
 }

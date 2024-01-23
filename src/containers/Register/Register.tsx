@@ -22,14 +22,15 @@ function App() {
           />
         </label>
         <br />
-        {/* <label>
+        <br></br>
+        <label>
           Email:
           <input
             type="email"
             name="email"
             required
           />
-        </label> */}
+        </label>
          <br />
         <label>
           First Name:
