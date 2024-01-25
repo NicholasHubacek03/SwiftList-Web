@@ -1,3 +1,7 @@
+import styled from "styled-components";
+
+export const StyledLoginSection =  styled.section`
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -29,6 +33,10 @@ label {
   display: block;
   margin-bottom: 8px;
   color: #555;
+}
+
+.card{
+  color: red;
 }
 
 input {
@@ -71,3 +79,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+`
+
+
