@@ -3,7 +3,7 @@ import { FormEvent, useState } from 'react'
 function App() {
     const [] = useState(0)
 
-    function handleSubmit(event: FormEvent<HTMLFormElement>): void {
+    function handleSubmit(_event: FormEvent<HTMLFormElement>): void {
         throw new Error('Function not implemented.');
     }
 
