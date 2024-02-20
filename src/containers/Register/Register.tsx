@@ -1,6 +1,6 @@
 import { FormEvent, useState } from 'react'
 
-function App() {
+function Register() {
     const [] = useState(0)
 
     function handleSubmit(_event: FormEvent<HTMLFormElement>): void {
@@ -66,4 +66,4 @@ function App() {
     </div>
   );
 }
-export default App
+export default Register

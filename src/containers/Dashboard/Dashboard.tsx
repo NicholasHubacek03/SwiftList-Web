@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledDashboardSection } from './Dashboard.styles'
+import { StyledDashboardSection } from '../../css/Dashboard.styles'
 
 
 const Dashboard: React.FC = () => {
