@@ -1,10 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import Login from './containers/Login/Login'
+import Login from './containers/Login'
 import React from 'react';
-import AboutUs from './containers/AboutUs/AboutUs';
-import Home from './containers/Home/HomePage';
-import Register from './containers/Register/Register';
-import Dashboard from './containers/Dashboard/Dashboard';
+import AboutUs from './containers/AboutUs';
+import Home from './containers/HomePage';
+import Register from './containers/Register';
+import Dashboard from './containers/Dashboard';
 import Navbar from './components/Navbar';
 
 
