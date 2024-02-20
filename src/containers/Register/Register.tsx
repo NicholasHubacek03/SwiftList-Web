@@ -1,5 +1,4 @@
 import { FormEvent, useState } from 'react'
-import './Register.css'
 
 function App() {
     const [] = useState(0)
