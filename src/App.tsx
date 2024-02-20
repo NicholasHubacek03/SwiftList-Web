@@ -6,6 +6,8 @@ import AboutUs from './containers/AboutUs/AboutUs';
 import Home from './containers/Home/HomePage';
 import Register from './containers/Register/Register';
 import Dashboard from './containers/Dashboard/Dashboard';
+import { NavLink } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 
 
@@ -15,13 +17,7 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <nav>
-            <Link to="/HomePage">HomePage</Link>
-            <Link to="/Login">Login</Link>
-            <Link to="/AboutUs">AboutUs</Link>
-            <Link to="/Register">Register</Link>
-            <Link to="/Dashboard">Dashboard</Link>
-          </nav>
+          <Navbar />
           <Routes>
             <Route path="/HomePage" element={<Home />} />
             <Route path="/Login" element={<Login />} />
