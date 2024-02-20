@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom"
-
+import '/src/css/Navbar.css'
 const Navbar: React.FC = () => {
       return (
-            <nav>
-              <NavLink to="/HomePage">HomePage</NavLink>
-              <NavLink to="/Login">Login</NavLink>
-              <NavLink to="/AboutUs">AboutUs</NavLink>
-              <NavLink to="/Register">Register</NavLink>
-              <NavLink to="/Dashboard">Dashboard</NavLink>
+            <nav className="navbar">
+              <NavLink to="/HomePage" className="nav-link">HomePage</NavLink>
+              <NavLink to="/Login" className="nav-link">Login</NavLink>
+              <NavLink to="/AboutUs" className="nav-link">AboutUs</NavLink>
+              <NavLink to="/Register" className="nav-link">Register</NavLink>
+              <NavLink to="/Dashboard" className="nav-link">Dashboard</NavLink>
             </nav>
       ); 
     }

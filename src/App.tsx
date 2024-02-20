@@ -1,12 +1,10 @@
-
-import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Login from './containers/Login/Login'
 import React from 'react';
 import AboutUs from './containers/AboutUs/AboutUs';
 import Home from './containers/Home/HomePage';
 import Register from './containers/Register/Register';
 import Dashboard from './containers/Dashboard/Dashboard';
-import { NavLink } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 
