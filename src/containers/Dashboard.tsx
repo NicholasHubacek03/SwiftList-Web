@@ -22,6 +22,5 @@ const Dashboard: React.FC = () => {
                     </div>
     </StyledDashboardSection>
 }
-// test
 
 export default Dashboard;
