@@ -15,11 +15,13 @@ const Dashboard: React.FC = () => {
         <div className="dashboard-container">
         <h1>Dashboard</h1>
             <p>Welcome to your dashboard!</p>
+
                 <p>This is where the google calendar will be</p>
                     <button onClick={handleAddTaskClick}>Add Task</button>
                     {showForm && <TaskForm onClose={() => setShowForm(false)} />}
                     </div>
     </StyledDashboardSection>
 }
+
 
 export default Dashboard;
