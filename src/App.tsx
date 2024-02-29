@@ -6,6 +6,7 @@ import Home from './containers/HomePage';
 import Register from './containers/Register';
 import Dashboard from './containers/Dashboard';
 import Navbar from './components/Navbar';
+import ForgotPasswordForm from './containers/ForgotPassword';
 
 
 
@@ -23,6 +24,7 @@ class App extends React.Component {
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/Register" element={<Register />} />
             <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path='/ForgotPassword' element={<ForgotPasswordForm/>} />
           </Routes>
         </div>
       </Router>
