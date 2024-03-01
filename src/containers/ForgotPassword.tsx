@@ -8,6 +8,6 @@ return (
       <input type="email" onChange={(e) => (e.target.value)} />
       <button>Forgot Password</button>
     </div>
-  );
+  )
 }
 export default ForgotPasswordForm
